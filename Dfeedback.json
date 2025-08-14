@@ -1,24 +1,402 @@
 [
-    {"question": "Mark has a garden with flowers. He planted plants of three different colors in it. Ten of them are yellow, and there are 80% more of those in purple. There are only 25% as many green flowers as there are yellow and purple flowers. How many flowers does Mark have in his garden?", "answer": "35"},
-    {"question": "Ann's favorite store was having a summer clearance. For $75 she bought 5 pairs of shorts for $7 each and 2 pairs of shoes for $10 each. She also bought 4 tops, all at the same price. How much did each top cost?", "answer": "5"},
-    {"question": "Ann, Bill, Cate, and Dale each buy personal pan pizzas cut into 4 pieces. If Bill and Dale eat 50% of their pizzas and Ann and Cate eat 75% of the pizzas, how many pizza pieces are left uneaten?", "answer": "6"},
-    {"question": "Brennan was researching his school project and had to download files from the internet to his computer to use for reference. After downloading 800 files, he deleted 70% of them because they were not helpful. He downloaded 400 more files but again realized that 3/5 of them were irrelevant. How many valuable files was he left with after deleting the unrelated files he downloaded in the second round?", "answer": "400"},
-    {"question": "Carolyn practices the piano for 20 minutes a day and the violin for three times as long. If she practice six days a week, how many minutes does she spend practicing in a month with four weeks?", "answer": "1920"},
-    {"question": "There are 25 roses in a garden. There are 40 tulips. There are 35 daisies. What percentage of flowers are not roses?", "answer": "75"},
-    {"question": "The reason why I am writing this email is because I wanted to inform you about the changes.", "answer": "I'm writing to inform you about the changes."},
-    {"question": "Each and every student must submit their homework on time without any delays whatsoever.", "answer": "Every student must submit their homework on time."},
-    {"question": "The book that I read last week was very interesting and I enjoyed it alot.", "answer": "The book I read last week was very interesting, and I enjoyed it a lot."},
-    {"question": "Due to the fact that it was raining, the event was cancelled and postponed to next week.", "answer": "Because it was raining, the event was cancelled and postponed to next week."},
-    {"question": "In spite of the fact that he studied hard, he didn't pass the exam unfortunately.", "answer": "Despite studying hard, he unfortunately didn't pass the exam."},
-    {"question": "The project was completed successfully and on time by the team who worked very hard.", "answer": "The hard-working team completed the project successfully and on time."},
-    {"question": "It is my belief that we should consider all of the options before making a final decision.", "answer": "I believe we should consider all options before making a final decision."},
-    {"question": "The new restaurant is very good and the food is delicious and the service is excellent.", "answer": "The new restaurant is excellent, with delicious food and outstanding service."},
-    {"question": "He asked me if I could help him with his homework assignment that was due tomorrow.", "answer": "He asked me to help him with his homework assignment due tomorrow."},
-    {"question": "At this point in time, we are currently reviewing all the applications that were submitted.", "answer": "We are currently reviewing all submitted applications."},
-    {"question": "The weather forecast predicts that it will be sunny and warm with no chance of rain.", "answer": "The weather forecast predicts sunny, warm weather with no chance of rain."},
-    {"question": "In order to be successful, you need to work hard and be persistent in your efforts.", "answer": "To be successful, you need to work hard and be persistent."},
-    {"question": "The meeting was very productive and we accomplished alot of important tasks.", "answer": "The meeting was very productive, and we accomplished many important tasks."},
-    {"question": "She is one of the most smartest students in the class and always gets good grades.", "answer": "She is one of the smartest students in the class and always gets good grades."},
-    {"question": "The company is planning to expand their business operations to different countries around the world.", "answer": "The company plans to expand its business operations to different countries worldwide."},
-    {"question": "I want to thank you for all of your help and support during this difficult time period.", "answer": "Thank you for all your help and support during this difficult time."}
+  {
+    "question": "So even if you travel through metro, you have to take a bus or auto to reach your destination unless it is located near a metro station.",
+    "answer": "So, even if you travel by metro, you have to take a bus or car to reach your destination unless it is located near a metro station."
+  },
+  {
+    "question": "Create and edit account profiles used by Microsoft Office Project when connecting to Microsoft Office Project Server.",
+    "answer": "After connecting to Project Server, create and edit account profiles that use Project Server."
+  },
+  {
+    "question": "Family members are the most important and best friends in our life.",
+    "answer": "Family members are the most important and best friends in our lives."
+  },
+  {
+    "question": "I've already received from your father all I needed.",
+    "answer": "I already have everything I need from your father."
+  },
+  {
+    "question": "Critically the album has not been as well received as other Browne recordings. It remains his only album to date to reach number 1 on the Billboard chart.",
+    "answer": "Although critically the album has not been as well received as other Browne recordings, it remains his only album to date to reach number 1 on the Billboard chart."
+  },
+  {
+    "question": "Jan. 26, 1927 -- The Hawthorne Inn restaurant owner and Capone friend was killed by members of the North Side Gang. Per the gang-conference agreement, Capone didn't retaliate.",
+    "answer": "Jan. 26, 1927 -- The Hawthorne Inn restaurant owner and Capone friend was killed by members of the North Side Gang. However, per the gang-conference agreement, Capone didn't retaliate."
+  },
+  {
+    "question": "Concerning the imposition of hands, this one served in its time, and there is no necessity of conserving it now. By the imposition of hands.",
+    "answer": "Concerning the imposition of hands, this one served in its time, and there is no necessity of conserving it now, because by the imposition of hands."
+  },
+  {
+    "question": "They may think they are buying heroin, unaware that it is actually gray death.",
+    "answer": "As such, even experienced opioid users risk serious injury or death when taking this drug mixture."
+  },
+  {
+    "question": "I'm afraid we don't do any of that.",
+    "answer": "We're not doing any of this,I'm afraid."
+  },
+  {
+    "question": "Many scholars, activists, and NGOs agree with targeting specific populations. They contest the motives of the World Bank based on their measurements of success.",
+    "answer": "Although many scholars, activists, and NGOs agree with targeting specific populations, they contest the motives of the World Bank based on their measurements of success."
+  },
+  {
+    "question": "800-900 - terror bombing of rotterdam by nazi germany, may 14, 1940.",
+    "answer": "800-900 - bombing of rotterdam by nazi germany, may 14, 1940."
+  },
+  {
+    "question": "For him, as one of the top sheld payed Players of european leagues, it is no big deal to buy a Mercedes Benz.",
+    "answer": "For him, as one of the top sheld paid players in the European league, it is no big deal to buy a Mercedes Benz."
+  },
+  {
+    "question": "First of all, the local council organised a competition promoting ecological awareness and encouraging the local community to preserve the community.",
+    "answer": "First of all, the local council organized a competition promoting ecological awareness and encouraging the local community to preserve the environment."
+  },
+  {
+    "question": "The increased rates of compulsory modulation need to be taken into account by those Member States that opted to apply a system of voluntary modulation.",
+    "answer": "It is necessary that Member States which have chosen to apply a voluntary modulation scheme take into account increased mandatory modulation rates."
+  },
+  {
+    "question": "Wilson had been a prize fighter and was associated with New York City Democratic political machine being a member of the so-called Mozart Hall Democracy faction headed by Fernando Wood. In 1856, prize fighter was elected as an alderman with the backing of the Democratic.",
+    "answer": "Wilson had been a prize fighter and was associated with New York City Democratic political machine being a member of the so-called Mozart Hall Democracy faction headed by Fernando Wood. In 1856, Wilson was elected as an alderman with the backing of the Democratic Party."
+  },
+  {
+    "question": "it took eight days to find and recover the remains of the six heroes.",
+    "answer": "it took eight days to find and recover the remains of the six men."
+  },
+  {
+    "question": "Besides establishing sanctions for offenders, another aspect of paramount importance in fighting this gross violation of human rights is ensuring that sentences are served once they are pronounced by the Court.",
+    "answer": "In addition to the introduction of sanctions for offenders, ensuring that penalties granted in court have been enforced is of paramount importance in the fight against this grave fundamental rights infringement."
+  },
+  {
+    "question": "Canvasbacks were extensively hunted around the start of the 20th century. Federal hunting regulations now restrict their harvest, so hunting is ruled out as a cause for the decline.",
+    "answer": "Canvasbacks were extensively hunted around the start of the 20th century, but federal hunting regulations now restrict their harvest, so hunting is ruled out as a cause for the decline."
+  },
+  {
+    "question": "In it, she claimed that the role of Peggy Fair in the television series Mannix was offered to her during the final season of Star Trek. Producer Gene Roddenberry refused to release her from her contract.",
+    "answer": "In it, she claimed that the role of Peggy Fair in the television series Mannix was offered to her during the final season of Star Trek, but producer Gene Roddenberry refused to release her from her contract."
+  },
+  {
+    "question": "Originally, the field officials had ruled that UCLA had no time left. The challenge gave the UCLA one more second left to set up the field goal try.",
+    "answer": "Originally, the field officials had ruled that UCLA had no time left, but the challenge gave the Bruins one more second left to set up the field goal try."
+  },
+  {
+    "question": "37 North Dakota ND N. Dak..",
+    "answer": "N.M. or New M. New York N.Y. North Carolina N.C. North Dakota N. Dak.."
+  },
+  {
+    "question": "It has undergone many renovations. Much of the original house still stands within the present building.",
+    "answer": "Although it has undergone many renovations, much of the original house still stands within the present building."
+  },
+  {
+    "question": "Fortunately, this unnavoidable part of our lives is not that problematical anymore, as we may experience the pleasures of online shopping without leaving home.",
+    "answer": "Fortunately, this unavoidable part of our lives is not that problematic anymore, as we may experience the pleasures of online shopping without leaving home."
+  },
+  {
+    "question": "It borders Italy (Liguria and Piedmont) to the east, Monaco (Fontvieille, La Colle, La Rousse, Larvotto, Les Moneghetti, Les Re ́ voires, Saint Michel) in the south-east, and the French regions of Auvergne-Rhone-Alpes to the north and Occitanie to the west.",
+    "answer": "It is in southeastern France and borders to the east with Monaco and Italy (with the Italian regions of Liguria and Piedmont)."
+  },
+  {
+    "question": "In information retrieval a query does not uniquely identify a single object in the collection. Several objects may match the query, perhaps with different degrees of relevancy.",
+    "answer": "In information retrieval a query does not uniquely identify a single object in the collection. Instead, several objects may match the query, perhaps with different degrees of relevancy."
+  },
+  {
+    "question": "It's my first business trip to abroad, I don't have travel goods.",
+    "answer": "It's my first business trip abroad, so I don't have travel goods."
+  },
+  {
+    "question": "From the X-ray energy spectrum and flux, the gas temperature and density can be estimated,. Giving the pressure.",
+    "answer": "From the X-ray energy spectrum and flux, the gas temperature and density can be estimated, hence giving the pressure."
+  },
+  {
+    "question": "Lastly, the pace of advancement that led to the invention of the laptop and the pacemaker is different too.",
+    "answer": "Lastly, the pace of advancement that led to the invention of the laptop and that of the pacemaker is different too."
+  },
+  {
+    "question": "You won't beg for leniency, will you?",
+    "answer": "You're not going to plead for lenience, are you?"
+  },
+  {
+    "question": "Word embeddings represent words in a numeric space in such a way that semantic relations between words are encoded as distances and directions in the vector space.",
+    "answer": "Word embeddings represent words in a numeric space in such a way that semantic relations between words are represented as distances and directions in the vector space."
+  },
+  {
+    "question": "However, these methods rely on quality and contextualized knowledge structures (i.e., fact triples) that are retrieved at the pre-processing stage but overlook challenges caused by incompleteness of a KG, limited expressiveness of its relations, and retrieved facts irrelevant to the reasoning context. In this paper, we present a novel neural-symbolic model, named Hybrid Graph Network (HGN), which jointly generates feature representations for new triples (as a complement to existing edges in the KG), determines the relevance of the triples to the reasoning context, and learns graph module parameters for encoding the relational information.",
+    "answer": "However, fact sparsity, inherent in human-annotated KGs, can hinder such models from retrieving task-relevant knowledge. To address these issues, we propose Hybrid Graph Network (HGN), which jointly generates feature representations for new triples (as a complement to existing edges in the KG), determines the relevance of the triples to the reasoning context, and learns graph module parameters for encoding the relational information."
+  },
+  {
+    "question": "Omak's economy is dominated by the primary industries of agriculture and forestry. Economic diversification has occurred with sawmills and recreational tourism.",
+    "answer": "Omak's economy is dominated by the primary industries of agriculture and forestry, although economic diversification has occurred with sawmills and recreational tourism."
+  },
+  {
+    "question": "It was learned that ABC had swapped the airing of ten TV commercials for Jackson's new album ads worth $300,000 to $1.5 million in return for rights to broadcast future Michael Jackson music videos.",
+    "answer": "It turns out that ABC has acquired broadcast rights for the next Clips with Michael Jackson's songs on their lives for ten commercials for Jackson's new records that cost between $300,000 and $1.5 million."
+  },
+  {
+    "question": "They might have been trained to operate but do not understand the principles behind it.",
+    "answer": "They might have been trained to operate even though they do not understand the principles behind it."
+  },
+  {
+    "question": "Before today, I practiced so hard but, the interviewer asked me different question.",
+    "answer": "Before today, I practiced so hard, but the interviewer asked me a different question."
+  },
+  {
+    "question": "They were with a party of six who had been at sea angling from a 4.6 m boat.",
+    "answer": "They were with a party of six who had been angling from a 4.6 m boat."
+  },
+  {
+    "question": "For example, in India nd China the technological advances have enabled them to mass produce really affordable cars, which are also imported.",
+    "answer": "For example, in India and China, the, technological advances have enabled them to mass produce really affordable cars, which are also imported."
+  },
+  {
+    "question": "Obama has also recently added Senator Joe Biden to his nomination ticket.",
+    "answer": "Obama has recently added Senator Joe Biden to his nomination ticket."
+  },
+  {
+    "question": "Even though some say that by revealing the result, one's family will also get depressed and this will affect the whole family.",
+    "answer": "Even though some say that by revealing the result, one's family will also get depressed, and this will affect the whole family,"
+  },
+  {
+    "question": "Michael KurtzMichael Kurtz Sofia Gubaidulina: A Biography, p. 192, English translation Indiana University Press, 2007 (written 2001) Takehisa Kosugi In 1963 Takehisa Kosugi composed for Fluxus 1 a musical piece called Theatre Music in the form of a rectangle of cardstock that bore the trace of a spiral of moving feet.",
+    "answer": "Michael KurtzMichael Kurtz Sofia Gubaidulina: A Biography, p. 192, English translation Indiana University Press, 2007 (written 2001) In 1963 Takehisa Kosugi composed for Fluxus 1 a musical piece called Theatre Music in the form of a rectangle of cardstock that bore the trace of a spiral of moving feet."
+  },
+  {
+    "question": "They diversified extensively during the Early Cretaceous, became widespread by 120 million years ago, and replaced conifers as the dominant trees from 100 to 60 million years ago.",
+    "answer": "They diversified extensively during the Early Cretaceous, became widespread by 120 million years ago, and replaced conifers as the dominant trees from 100 to 60 to 100 million years ago."
+  },
+  {
+    "question": "Of course, Don't have a car license people can't drive a car.",
+    "answer": "Of course, if people don't have a driver's license, they can't drive a car."
+  },
+  {
+    "question": "Republicans claim that to allow detainees those rights, the U.S. would have the potential to be engulfed in an endless line of lawsuits.",
+    "answer": "Republicans claim that to allow detainees those rights, the U.S. would potentially be engulfed in an endless line of lawsuits."
+  },
+  {
+    "question": "Can you suggest any other options on how best to identify and disseminate best practice in this field?",
+    "answer": "Would you propose any further ways of identifying and disseminating best practices in this area as best you can?"
+  },
+  {
+    "question": "In photography, stops are also a unit used to quantify ratios of light or exposure, with each added stop meaning a factor of two, and each subtracted stop. A factor of one-half.",
+    "answer": "In photography, stops are also a unit used to quantify ratios of light or exposure, with each added stop meaning a factor of two, and each subtracted stop meaning a factor of one-half."
+  },
+  {
+    "question": "So, I was boring and made a lang-8 account.",
+    "answer": "So, I was boring bored and made a lang-8 account."
+  },
+  {
+    "question": "This is why it quickly opened a second front in the other disputed Georgian territory, Abkhazia, just south of Sochi.",
+    "answer": "On another Georgia's disputed territory, Abkhazia, right south of Sochi, opened a second front."
+  },
+  {
+    "question": "the fort has a magnificent complex built around a large and spacious courtyard.",
+    "answer": "the fort has a complex built around a large and spacious courtyard."
+  },
+  {
+    "question": "You know, sometimes in life, you have to start some fires.",
+    "answer": "I mean, sometime you got to start a fire in your life."
+  },
+  {
+    "question": "The discovery of the graves' east -- west alignment has prompted suggestions that the cemetery reflected Christian tradition. The evidence overall is contradictory about whether the occupants were Christian.",
+    "answer": "The discovery of the graves' east -- west alignment has prompted suggestions that the cemetery reflected Christian tradition, although the evidence overall is contradictory about whether the occupants were Christians."
+  },
+  {
+    "question": "We also measure human performance on our dataset and find that there is a big gap between human and model performances.",
+    "answer": "We also measure human performance on our dataset and find that there is a big gap between machine-model and human performances."
+  },
+  {
+    "question": "On 27 April, Taylor headed back to Yokosuka for a brief stop -- from 3 to 6 May -- before returning to Hawaii. The destroyer reentered Pearl Harbor on the 13th and conducted local operations in Hawaii waters.",
+    "answer": "On 27 April, Taylor headed back to Yokosuka for a brief stop -- from 3 to 6 May -- before returning to Hawaii. The destroyer reentered Pearl Harbor on the 13th and conducted local operations in Hawaiian waters."
+  },
+  {
+    "question": "We evaluate systems on two benchmark datasets.",
+    "answer": "We experiment on two benchmark datasets."
+  },
+  {
+    "question": "An example of an integrated drainage is the watershed of the Rio Grande River.",
+    "answer": "An example of an integrated drainage is the area drained by the Rio Grande River."
+  },
+  {
+    "question": "We train LSTMs on non-linguistic, structured data and test their performance on human language to assess which kinds of data induce generalizable encodings that LSTMs can use for natural language.",
+    "answer": "We train LSTMs on non-linguistic, structured data and test their performance on natural language to assess which kinds of data induce generalizable encodings that LSTMs can use for natural language."
+  },
+  {
+    "question": "fey, has-been honduran pop singer.",
+    "answer": "fey, a honduran pop singer."
+  },
+  {
+    "question": "For each of them, we summarize the prominent methods and models, including approaches to mention encoding based on the self-attention architecture.",
+    "answer": "For each of them, such as approaches to mention encoding based on the self-attention architecture."
+  },
+  {
+    "question": "With a worldwide box office gross of $484million, the film was the fifth-highest-grossing big screen production of the year. Aniston next starred as the old classmate of a tightly wound newly-wed in the romantic comedy Along Came Polly (2004), opposite Ben Stiller, which placed number one at the North American box office, earning $ 27.7million in its opening weekend;",
+    "answer": "With a worldwide box office gross of $484million, it was the fifth-highest-grossing feature film of the year. Aniston next starred as the old classmate of a tightly wound newlywed in the romantic comedy Along Came Polly (2004) opposite Ben Stiller, which placed number one at the North American box office, earning $ 27.7million in its opening weekend;"
+  },
+  {
+    "question": "Experimental results show an accuracy of 98.1 percent for the proposed method, 2.1 percent improvement compared to the best CNN and RNN models and 1.1 percentbetter than a fine-tuned BERT model. In addition, the combination of RNN-CNN was not successful in this task compared to the CNN model.",
+    "answer": "Experimental results show that our proposed method can determine humor in short texts with accuracy and an F1-score of 98.2 percent. Our 8-layer model with 110M parameters outperforms all baseline models with a large margin, showing the importance of utilizing linguistic structure in machine learning models."
+  },
+  {
+    "question": "Some enterprises require experienced employers and if young people have it, they will be more likely to be recruited in the workplace.",
+    "answer": "Some businesses require experienced employees, and if young people have it, they will be more likely to be recruited in the workplace."
+  },
+  {
+    "question": "In 2006, Sabri Brothers performed at Ajmer Sharif and they performed in Pune, Maharashtra during the same year. the same year, he re created and re released his old hits like Khwaja Ki Deewani, Mera Koi Nahi Hai Tere Siwa, Mann Bole Mann, and Hum Panjatani Hai which proved to be a big hit. Maqbool Ahmed Sabri did various international and national tours till his death.",
+    "answer": "In 2006, Sabri Brothers performed at Ajmer Sharif and they performed in Pune, Maharashtra during the same year. the same year, he re created and re released his old hits like Khwaja Ki Deewani, Mera Koi Nahi Hai Tere Siwa, Mann Bole Mann, and Hum Panjatani Hai which proved to be a big hit worldwide. Maqbool Ahmed Sabri did various international and national tours till his death."
+  },
+  {
+    "question": "I joined a volleyball competition yesterday.",
+    "answer": "Yesterday, I joined a volleyball competition yesterday."
+  },
+  {
+    "question": "His current condition is not life threating. Grammer blamed the heart attack, which he suffered while paddle-boating with his wife in June, on the pressure from his cancelled sitcom Back To You. Grammer is famous for appearing on television sitcoms such as Frasier and Cheers.",
+    "answer": "His current condition is not life threating. Grammer blamed the heart attack, which he suffered while paddle-boating with his wife in June, on the pressure from his cancelled sitcom Back To You. Grammer is best known for his roles on television sitcoms such as Frasier and Cheers."
+  },
+  {
+    "question": "Reviewing the PlayStation 3 version, Destructoid's Dale North generally praised the upgrade. Stated that the fixed camera had not aged well and some of the smaller.",
+    "answer": "Reviewing the PlayStation 3 version, Destructoid's Dale North generally praised the upgrade, although stated that the fixed camera had not aged well and some of the smaller."
+  },
+  {
+    "question": "As a consequence I am prepared to work long hours.",
+    "answer": "As a consequence, I am prepared to work long hours."
+  },
+  {
+    "question": "'non-Aryans ' were discriminated against, then the target of systematic mass killings known as the Holocaust.",
+    "answer": "'non-Aryans ' were discriminated against before suffering the systematic mass killing known as the Holocaust."
+  },
+  {
+    "question": "The Microsoft Axapta Debugger was not found.",
+    "answer": "Could not find Microsoft Axapta Debugger debugger."
+  },
+  {
+    "question": "The ensemble was formed in 1989 by violinists Nicholas Kitchen and Ruggero Allifranchini, violist EnSik Choi, and cellist Yeesun Kim, who were then all young musicians at the Curtis Institute of Music. Kitchen and cellist are husband and wife.",
+    "answer": "The ensemble was formed in 1989 by violinists Nicholas Kitchen and Ruggero Allifranchini, violist EnSik Choi, and cellist Yeesun Kim, who were then all young musicians at the Curtis Institute of Music. Kitchen and Kim are husband and wife."
+  },
+  {
+    "question": "There are two ways of writing the village's name-Leskov dol or Leskovdol. Nowadays many people have adopted the merged version.",
+    "answer": "There are two ways of writing the village's name-Leskov dol or Leskovdol, although nowadays many people have adopted the merged version."
+  },
+  {
+    "question": "Hung: Even though it's safe to lock everything all, but it is inconvenience to lock (them all).",
+    "answer": "Hung: Even though it's secure to lock everything all, but it is inconvenience to lock (them all)."
+  },
+  {
+    "question": "Safety concerns exist for fluoroquinolone use during pregnancy, so they are contraindicated. No other safe alternative antibiotic exists.",
+    "answer": "Safety concerns exist for fluoroquinolone use during pregnancy, so they are contraindicated unless no other safe alternative antibiotic exists."
+  },
+  {
+    "question": "Furthermore, TARGIT inhibits the stimulating effects of wound fluid on cancer cells, suggesting for the first time, a beneficial effect of intraoperative radiotherapy (IORT) on tumour microenvironment. In these studies, women treated with TARGIT-IORT during lumpectomy for breast cancer combined with whole breast radiotherapy had a significantly low mortality from non-breast-cancer causes, such as cardiovascular and lung complications, as well as other cancers compared with those who received whole breast radiotherapy.",
+    "answer": "The use in TARGIT of a small treatment device which can be positioned in close physical proximity to the treatment site aims to avoid some of these practical issues. TARGIT irradiation has also been shown to affect the properties of wound fluid, which may be linked to cancer cell proliferation and possibly local recurrence. TARGIT-IORT during lumpectomy for breast cancer combined with whole breast radiotherapy had a significantly low mortality from non-breast-cancer causes, such as cardiovascular and lung complications, as well as other cancers compared with those who received whole breast radiotherapy."
+  },
+  {
+    "question": "Recently, contextualized word embeddings outperform static word embeddings on many NLP tasks. However, we still do not know much about the mechanism inside these representations. Do they have any common patterns? If so, where do these patterns come from? We find that almost all the contextualized word vectors of BERT and RoBERTa have a commonpattern.",
+    "answer": "In this work, we demonstrate that the contextualized word vectors of BERT and RoBERTa have a commonpattern."
+  },
+  {
+    "question": "Geoffrey Phillip Ellis (born 24 May 1950) is a former Welsh cricketer. cricketer was a right-handed cricketer who bowled right-arm medium pace.",
+    "answer": "Geoffrey Phillip Ellis (born 24 May 1950) is a former Welsh cricketer. Ellis was a right-handed batsman who bowled right-arm medium pace."
+  },
+  {
+    "question": "You think about your family, the ones you are serving.",
+    "answer": "Your family, those you serve, you think."
+  },
+  {
+    "question": "The Neandertal was originally a limestone canyon widely known for its rugged scenery, waterfalls and caves. Industrial quarrying during the 19th and 20th centuries removed most of the limestone and dramatically changed the shape of the valley.",
+    "answer": "The Neandertal was originally a limestone canyon widely known for its rugged scenery, waterfalls and caves. However, industrial quarrying during the 19th and 20th centuries removed most of the limestone and dramatically changed the shape of the valley."
+  },
+  {
+    "question": "Also that the average age of American bridges is 43 years old.",
+    "answer": "Also that the average age of American bridges is 43 years."
+  },
+  {
+    "question": "I would prefer to do the sailing on the river, because as you know I never learn how to ride a bike.",
+    "answer": "I would prefer to go sailing on the river because as you know, I never learned how to ride a bike."
+  },
+  {
+    "question": "The Government has not developed sufficient programmes to cater to the psychological needs of the aged.",
+    "answer": "The government has not developed sufficient programs to cater to the psychological needs of the aged."
+  },
+  {
+    "question": "The sunlight warmed her face in a way far different from that of the heat of the pit.",
+    "answer": "The sunlight had a different heat on her face than the pits' heat had been on her."
+  },
+  {
+    "question": "An example is Singapore providing free education and has one of the world's best childcare services and facilities.",
+    "answer": "An example is Singapore providing free education and offers one of the world's best childcare services and facilities."
+  },
+  {
+    "question": "I'm japanese high school student.",
+    "answer": "I'm a Japanese high school student."
+  },
+  {
+    "question": "These two examples although both possess the ability of undergoing abscission due to droughts or dry seasons, they are of different plant families.",
+    "answer": "Although both these examples are able to undergo abscission in response to droughts or dry seasons, they are of different plant families."
+  },
+  {
+    "question": "She swears them all to secrecy. She reveals that Nemorino's uncle has just died and left his nephew a large fortune.",
+    "answer": "Swearing them all to secrecy, she reveals that Nemorino's uncle has just died and left his nephew a large fortune."
+  },
+  {
+    "question": "But the prices will shock and surprise you, they double or triple the UK ones.",
+    "answer": "But the prices will shock and surprise you; they are double or triple the UK ones."
+  },
+  {
+    "question": "However, I was not going to give up on skating that easy.",
+    "answer": "However, I was not going to give up on skating that easily."
+  },
+  {
+    "question": "At first, I suggest it is important to let children study what to learn, how to think and how to express.",
+    "answer": "First, I suggest it is important to let children study what to learn, how to think, and how to express themselves."
+  },
+  {
+    "question": "Chèvre, yes, that is a goat cheese.",
+    "answer": "Chévre. Yes, it's got the goat's Cheeze."
+  },
+  {
+    "question": "Gestation takes six months ; a single fawn is typical. Twins have been reported in Algeria.",
+    "answer": "Gestation takes six months ; a single fawn is typical, although twins have been reported in Algeria."
+  },
+  {
+    "question": "Egoyan later received the Governor General's Performing Arts Award in 2015. The Governor General's Performing Arts Award is canada's highest royal honour in the performing arts.",
+    "answer": "Egoyan later received the Governor General's Performing Arts Award, Canada's highest royal honour in the performing arts, in 2015."
+  },
+  {
+    "question": "She was, in her own words: In 1777, she went on '' the circuit '' in the provinces.",
+    "answer": "She was, in her own words: In 1777, she went to play in the provinces."
+  },
+  {
+    "question": "To be more precise, new educational methods promotes the students' teamwork.",
+    "answer": "To be more precise, new educational methods promote the students' teamwork."
+  },
+  {
+    "question": "Scottish participation in the British Empire also allowed Scotland to export its output throughout much of the world. Heavy industry declined in the late 20th century, leading to a shift in the economy of Scottish towards technology and the service sector.",
+    "answer": "Scottish participation in the British Empire also allowed Scotland to export its output throughout much of the world. However heavy industry declined in the late 20th century, leading to a shift in the economy of Scotland towards technology and the service sector."
+  },
+  {
+    "question": "This area is also home to a number of caribou herds - the Mulchatna herd is the third largest in the state.",
+    "answer": "This area is also home to a number of caribou herds."
+  },
+  {
+    "question": "Humans have a general desire to belong and to love, which is usually satisfied within an intimate relationship.",
+    "answer": "Humans have a general desire to belong and to love, which is usually satisfied within a sexual relationship."
+  },
+  {
+    "question": "In all my heart I hope he succeeds.",
+    "answer": "I hope with all my heart that he will find it."
+  },
+  {
+    "question": "Guinea also presented a memorandum on the stages and issues at stake in the transition.",
+    "answer": "A memorandum related to the various stages and challenges of the transition has also been submitted by the Guinean Party."
+  },
+  {
+    "question": "In this paper, we develop variants of layer-wise relevance backpropagation (LRP) and gradient backpropagation, tailored to image captioning models with attention mechanisms.",
+    "answer": "In this paper, we develop variants of layer-wise relevance propagation (LRP) and gradient backpropagation, tailored to image captioning models with attention mechanisms."
+  },
+  {
+    "question": "I was given a shot, and I was pulled a tooth after all.",
+    "answer": "I was given a shot, and they pulled the tooth out after all."
+  },
+  {
+    "question": "only in 1983, thirty years after his death, were his medals restored.",
+    "answer": "in 1983, thirty years after his death, were his medals restored."
+  }
 ]

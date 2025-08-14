@@ -829,12 +829,56 @@ async def run_gepa(
 async def main():
     global META_PROMPT, MERGING_PROMPT, BUDGET, MINI_BATCH_SIZE, NUM_INITIAL_CANDIDATE_PROMPTS
 
-    with open("Dpareto.json", "r") as fPareto:
+    # Load enhanced parameters from config
+    PARETO_SIZE = cfg.get('PARETO_SIZE', 50)
+    FEEDBACK_SIZE = cfg.get('FEEDBACK_SIZE', 100)
+    MAX_COEDIT_SAMPLES = cfg.get('MAX_COEDIT_SAMPLES', 5000)
+
+    # Force reload CoEdit data option - set to True to always reload from HuggingFace
+    FORCE_RELOAD_COEDIT = True  # Change to False to use existing files
+
+    # Check if CoEdit data files exist, if not create them, or force reload
+    import os
+    if FORCE_RELOAD_COEDIT or not os.path.exists("Dpareto.json") or not os.path.exists("Dfeedback.json"):
+        if FORCE_RELOAD_COEDIT:
+            rich_display("Force reloading CoEdit dataset from Hugging Face...", "info")
+        else:
+            rich_display("CoEdit dataset files not found. Loading from Hugging Face...", "info")
+        try:
+            from load_coedit_data import load_and_process_coedit, save_datasets
+            rich_display("Loading enhanced CoEdit dataset (this may take several minutes)...", "info")
+            dpareto_data, dfeedback_data = load_and_process_coedit(
+                pareto_size=PARETO_SIZE,
+                feedback_size=FEEDBACK_SIZE,
+                seed=42,
+                max_samples=MAX_COEDIT_SAMPLES
+            )
+            save_datasets(dpareto_data, dfeedback_data)
+            rich_display("Enhanced CoEdit dataset loaded and saved successfully!", "success")
+        except ImportError:
+            rich_display("datasets library not found. Please install: pip install datasets", "error")
+            rich_display("Using existing synthetic data files instead.", "warning")
+        except Exception as e:
+            rich_display(f"Error loading CoEdit dataset: {str(e)}", "error")
+            rich_display("Using existing data files instead.", "warning")
+
+    with open("Dpareto.json", "r", encoding="utf-8") as fPareto:
         Dpareto = json.load(fPareto)
 
-    with open("Dfeedback.json", "r") as fFeedback:
+    with open("Dfeedback.json", "r", encoding="utf-8") as fFeedback:
         Dfeedback = json.load(fFeedback)
 
+    rich_display(f"Loaded {len(Dpareto)} samples from Dpareto.json", "info")
+    rich_display(f"Loaded {len(Dfeedback)} samples from Dfeedback.json", "info")
+    rich_display(f"Budget: {BUDGET} | Mini-batch: {MINI_BATCH_SIZE} | Initial candidates: {NUM_INITIAL_CANDIDATE_PROMPTS}", "info")
+
+    # Preview first sample to verify we're using CoEdit data
+    if Dpareto:
+        sample = Dpareto[0]
+        rich_display(f"Sample input: {sample['question'][:100]}...", "info")
+        rich_display(f"Sample output: {sample['answer'][:100]}...", "info")
+
+    # Generate more diverse initial candidates with increased concurrency
     initial_candidates = await generate_initial_candidates_from_seed(
         seed_prompt=SEED_PROMPT,
         initial_candidates_generation_prompt=INITIAL_CANDIDATES_GENERATION_PROMPT,

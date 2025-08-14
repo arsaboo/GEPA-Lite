@@ -197,20 +197,32 @@ pip install -r requirements.txt
     4. Optionally rotate / refresh between runs (version the file).
 
 ## About this Grammarly Implementation
-This configuration optimizes prompts for text editing tasks, specifically:
+This configuration optimizes prompts for text editing tasks using the real **Grammarly CoEdit dataset** from Hugging Face, specifically:
 - **Grammar and spelling correction**
 - **Clarity improvement**
 - **Style preservation**
 - **Conciseness enhancement**
 
+#### Data source
+The implementation automatically downloads and processes the [Grammarly CoEdit dataset](https://huggingface.co/datasets/grammarly/coedit) (69K instances) from Hugging Face. The dataset contains real text editing examples with:
+- Source text with grammatical errors or unclear phrasing
+- Target text with professional edits maintaining original meaning
+
 #### Data roles for text editing
-- `Dpareto.json`: Contains pairs of poorly written text and their expertly edited versions for stable evaluation
-- `Dfeedback.json`: Additional text editing examples for iterative refinement during optimization
+- `Dpareto.json`: Contains 20 representative text editing pairs from CoEdit for stable evaluation
+- `Dfeedback.json`: Contains 40 additional CoEdit examples for iterative refinement during optimization
+- **Automatic loading**: If these files don't exist, the system automatically downloads and processes the CoEdit dataset
 
 #### Evaluation metrics
-- **String similarity**: Measures how closely the AI's edits match expert edits
+- **String similarity**: Measures how closely the AI's edits match expert edits from the CoEdit dataset
 - **Length preservation**: Rewards minimal, targeted changes over extensive rewrites
 - **Combined score**: 70% similarity + 30% length preservation bonus
+
+#### Getting started with CoEdit data
+1. Install dependencies: `pip install -r requirements.txt` (includes `datasets` library)
+2. Run the optimizer: `python GEPA.py`
+3. The system will automatically download CoEdit data on first run
+4. Or manually prepare data: `python load_coedit_data.py`
 
 ## Acknowledgments
 I'd like to acknowledge the authors of GEPA paper for their awesome work; the team (developers, engineers, and scientists) behind [Gemma 3n](https://deepmind.google/models/gemma/gemma-3n/), [Gemini](https://deepmind.google/models/gemini/) for their powerful models; and [Google Summer of Code 2025](https://summerofcode.withgoogle.com/) and [For the Love of Code 2025](https://github.blog/open-source/for-the-love-of-code-2025/) for inspiring me to continue contributing to open-source. `#ForTheLoveOfCode`

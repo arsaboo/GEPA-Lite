@@ -1,10 +1,202 @@
 [
-    {"question": "Me and my friend goes to the store yesterday and we buyed some groceries for the party.", "answer": "My friend and I went to the store yesterday and bought some groceries for the party."},
-    {"question": "The company's profits has increased significantly due to the fact that they implemented new strategies.", "answer": "The company's profits have increased significantly because they implemented new strategies."},
-    {"question": "I would like to express my gratitude for your assistance in helping me with this matter that was quite difficult.", "answer": "Thank you for your assistance with this difficult matter."},
-    {"question": "The weather was really really bad and it was raining cats and dogs all day long.", "answer": "The weather was terrible, and it rained heavily all day."},
-    {"question": "There's alot of people who doesn't understand the importance of proper grammar and spelling.", "answer": "Many people don't understand the importance of proper grammar and spelling."},
-    {"question": "In my opinion, I think that the new policy is not very good and it could be improved.", "answer": "I think the new policy could be improved."},
-    {"question": "The meeting will be held at 3:00 PM in the afternoon on Tuesday next week.", "answer": "The meeting will be held at 3:00 PM next Tuesday."},
-    {"question": "She was very unique in her approach to solving the problem and her solution was quite effective.", "answer": "Her unique approach to solving the problem was quite effective."}
+  {
+    "question": "Backbreaker does not use teams from the National Football League (NFL). Electronic Arts has an exclusive license to produce National Football League games in NFL's 's Madden series.",
+    "answer": "Backbreaker does not use teams from the National Football League (NFL) because Electronic Arts has an exclusive license to produce NFL games in its Madden series."
+  },
+  {
+    "question": "This fact allows young people do exercise and enjoy at the same time.",
+    "answer": "This fact allows young people to exercise and enjoy themselves at the same time."
+  },
+  {
+    "question": "Patients receiving warfarin therapy should receive careful coagulation monitoring when fluoxetine is initiated or stopped.",
+    "answer": "Coagulation should be closely monitored when initiating or stopping fluoxetine treatment in patients treated with warfarin."
+  },
+  {
+    "question": "Besides, mobile phones became digitized at the beginning of this century, which brought a revolution of mobile telecommunication.",
+    "answer": "Besides, mobile phones became digitized at the beginning of this century, which brought on a revolution in mobile telecommunication."
+  },
+  {
+    "question": "the most infamous example of tabor legislation is in the state of colorado.",
+    "answer": "the most well-known example of tabor legislation is in the state of colorado."
+  },
+  {
+    "question": "For people living under repressive regimes, outside protection is the only lifeline.",
+    "answer": "The only escape rope for nations in repressive regimes is security from outside."
+  },
+  {
+    "question": "Hence, the ERIS becomes not feasible enough to be carried out.",
+    "answer": "Hence, the ERIS is not feasible enough to be carried out."
+  },
+  {
+    "question": "The first bid of a side suit by either partner shows a control, and most players extend that to subsequent bids of a side suit. Both may show control in the same suit.",
+    "answer": "The first bid of a side suit by either partner shows a control, and most players extend that to subsequent bids of a side suit so that both may show control in the same suit."
+  },
+  {
+    "question": "Nevertheless, both of the inventions require time and effort to create miracles in the world.",
+    "answer": "Nevertheless, both of the inventions required time and effort to create miracles in the world."
+  },
+  {
+    "question": "During this period, the Chilean intellectual and politician Benjamn Vicua Mackenna (who served as senator in the National Congress from 1876 to 1885) was an influential voice in favor of Chilean expansionism into the Pacifiche considered that Spain's discoveries in the Pacific had been stolen by the British, and envisioned that Chile's duty was to create an empire in the Pacific that would reach Asia.",
+    "answer": "During this period, the Chilean intellectual and politician Benjamn Vicua Mackenna (who served as senator in the National Congress from 1876 to 1885) was an influential voice in favor of Chilean expansionism into the Pacifiche considered that Spain's discoveries in the Pacific had been taken by the British, and envisioned that Chile's duty was to create an empire in the Pacific that would reach Asia."
+  },
+  {
+    "question": "Structural damage beneath the first turret rendered her unable to fire. In absolute need.",
+    "answer": "Structural damage beneath the first turret rendered her unable to fire unless in absolute need."
+  },
+  {
+    "question": "The decision was made to modify their application. Either the Kane Area School District or the PA Charter Appeals Board could approve them.",
+    "answer": "The decision was made to modify their application, so that either the Kane Area School District or the PA Charter Appeals Board could approve them."
+  },
+  {
+    "question": "As the story of the apparition spreads, many came to pray at this site and to offer incense.",
+    "answer": "Soon, many people came back to the site to offer incense and to pray."
+  },
+  {
+    "question": "Lunfardo words are inserted in the normal flow of Rioplatense Spanish sentences, but grammar and pronunciation do not change. An average Rioplatense Spanish-speaking person reading tango lyrics will need, at most, the translation of a discrete set of words.",
+    "answer": "Lunfardo words are inserted in the normal flow of Rioplatense Spanish sentences, but grammar and pronunciation do not change. Thus, an average Spanish-speaking person reading tango lyrics will need, at most, the translation of a discrete set of words."
+  },
+  {
+    "question": "Another advantage of CAATTs is that it allows auditors to test for specific risks. An insurance company may want to ensure that it doesn't pay any claims after a policy is terminated.",
+    "answer": "Another advantage of CAATTs is that it allows auditors to test for specific risks. For example, an insurance company may want to ensure that it doesn't pay any claims after a policy is terminated."
+  },
+  {
+    "question": "This is because nuclear reactor plants have many advantages such as being able to produce both hydrogen fuel and a large amount of electricity from small amount of fuel, at the same time.",
+    "answer": "This is because nuclear reactor plants have many advantages, such as being able to produce both hydrogen fuel and a large amount of electricity from a small amount of fuel at the same time."
+  },
+  {
+    "question": "I'm not in any kind of peril, but right now I'm sorry, but I really must be going.",
+    "answer": "I am not in any danger and I'm really sorry, but I have to go now."
+  },
+  {
+    "question": "Although these collections are not open to the public, selections are shown at Nara National Museum once a year in autumn.",
+    "answer": "Although these collections are not open to the public, selections are shown at the Nara National Museum once a year in autumn."
+  },
+  {
+    "question": "We also find empirical evidence that zero and few-shot learning markedly benefit from adding more ` dataset-internal', self-supervised training signals, which is of practical importance when retrieving or computing on large external sources of such signals is infeasible.",
+    "answer": "We also find empirical evidence that zero and few-shot learning markedly benefit from increasing ' dataset-internal', self-supervised training signals, which is of practical importance when retrieving or computing on large external sources of such signals is infeasible."
+  },
+  {
+    "question": "I can't believe videos on TV are real, they are like nightmares.",
+    "answer": "I can't believe the videos on TV are real; they are like nightmares."
+  },
+  {
+    "question": "There's not another child on Earth like Damian Wayne.",
+    "answer": "There is no baby like damian wayne on earth."
+  },
+  {
+    "question": "Over the years, surveillance technology has advanced drastically and it has slowly integrate into our daily life where video cameras can be commonly seen monitoring us in shopping centre, workplaces and residential areas.",
+    "answer": "Over the years, surveillance technology has advanced drastically, and it has slowly integrated into our daily life where video cameras can be commonly seen monitoring us in shopping centres, workplaces, and residential areas."
+  },
+  {
+    "question": "The selection of official standards by family background gradually developed to the selection of talent, while the selection method by selection gradually developed to the form of public examination. The selecting mechanism based on talent later became institutionalised and much more rigorous. + Examination and degree hierarchy Degree Ranks Exam Times held Child student (Tongsheng)",
+    "answer": "The selection of official standards by family background gradually developed to emphasize talent instead. This method would eventually progress to form the standard of public examinations, to which this mechanism of cultivating talent would be institutionalized, making examinations a notoriously rigorous process to accomplish. + Examination and degree hierarchy Degree Ranks Exam Times held Child student (Tongsheng)"
+  },
+  {
+    "question": "I have worked in activities out-of-school before and in other summer camps in the south of America too.",
+    "answer": "I have worked in out-of-school activities before and in other summer camps in the south of America, too."
+  },
+  {
+    "question": "ROT13 provides an opportunity for letter games.",
+    "answer": "ROT13 can also be used for letter games."
+  },
+  {
+    "question": "He explained to him the whole process and gave him the remaining 2 ribbons and asked him to do the same thing with somebody he wants to acknowledge his appreciation to.",
+    "answer": "He explained to him the whole process and gave him the remaining 2 ribbons, and asked him to do the same thing with somebody he wanted to acknowledge his appreciation of."
+  },
+  {
+    "question": "Dakson Soares da Silva (born 11 July 1987 in Santana do Ipanema). Simply Dakson Soares da Silva, is a Brazilian Dakson Soares da Silva who currently plays for Brusque as an attacking midfielder.",
+    "answer": "Dakson Soares da Silva (born 11 July 1987 in Santana do Ipanema), or simply Dakson, is a Brazilian footballer who currently plays for Brusque as an attacking midfielder."
+  },
+  {
+    "question": "The filter is to be turned between each use.",
+    "answer": "Between each application, the filter shall be rotated."
+  },
+  {
+    "question": "Mrs. Abbott told Wikinewsthat \"Post offices are central spaces within a community.\"",
+    "answer": "She told Wikinews: \"Post offices are central spaces within a community.\""
+  },
+  {
+    "question": "The peninsula which has largely been cut off form the outside world. Even communications are near impossibel. Tens of thousands have fled their homes.",
+    "answer": "The peninsula which has largely been cut off form the outside world, has seen tens of thousands have fled their homes."
+  },
+  {
+    "question": "Eggs are laid on the plant Hibbertia spicata. Females touch each egg after oviposition with a tuft of hair on their abdomen, which attaches protective spines.",
+    "answer": "Eggs are laid on the plant Hibbertia spicata, and females touch each egg after oviposition with a tuft of hair on their abdomen, which attaches protective spines."
+  },
+  {
+    "question": "We show that given a word in the caption to be explained, explanation methods such as LRP reveal supporting and opposing pixels as well as words.",
+    "answer": "We show that given a word in the caption to be explained, explanation methods such as LRP reveal supporting and opposing pixels as well as preceding words."
+  },
+  {
+    "question": "The hero is robbed of land and title through bitter intrigues, and banned from the realm. As hero tries to leave the kingdom, hero's followed by pursuers who are after hero's life.",
+    "answer": "The hero is robbed of land and title through bitter intrigues, and banned from the realm. But as he tries to leave the kingdom, he's followed by pursuers who are after his life."
+  },
+  {
+    "question": "I wash clothes and hang out them.",
+    "answer": "I wash clothes and hang out them out."
+  },
+  {
+    "question": "Willingness to take risks and experiment with new alternative fuels are also important so that more creative ideas can be generated.",
+    "answer": "The willingness to take risks and experiment with new alternative fuels is also important so that more creative ideas can be generated."
+  },
+  {
+    "question": "My family stayed in VIP lounge, so I had to go out quite often to see how the situation went on.",
+    "answer": "My family stayed in the VIP lounge, so I had to go out quite often to see how the situation went on."
+  },
+  {
+    "question": "The emphasis on relics in this particular instance is crucial to understanding the development of the Peace of God movement overall. Popular participation in this movement across Europe stems from the popularity of relics and the penitential practices linked to the cult of the saints.",
+    "answer": "The emphasis on relics in this particular instance is crucial to understanding the development of the Peace of God movement overall because popular participation in this movement across Europe stems from the popularity of relics and the penitential practices linked to the cult of the saints."
+  },
+  {
+    "question": "Regarded as a radical by his detractors on the political right. Ely was in fact opposed to socialism.",
+    "answer": "Although regarded as a radical by his detractors on the political right, Ely was in fact opposed to socialism."
+  },
+  {
+    "question": "A study of rats suggested that it improved the strength of surgical repairs. Research on rabbits produced contrary evidence.",
+    "answer": "A study of rats suggested that it improved the strength of surgical repairs, while research on rabbits produced contrary evidence."
+  },
+  {
+    "question": "the following individuals are alumnus of the university of windsor in windsor, ontario, canada.",
+    "answer": "the following individuals are alums of the university of windsor in windsor, ontario, canada."
+  },
+  {
+    "question": "77 (seventy-seven) is the natural number following 76 and preceding 78.",
+    "answer": "77 is a natural number that comes after 76 and before 78."
+  },
+  {
+    "question": "These initiatives are very expensive to create and the deadline to have the entire NextGen system finished originally to be by the year 2020 is approaching, but FAA Administrator Michael Huerta expressed hope this Metroplex system would go into place at airports around the country.",
+    "answer": "These initiatives are very expensive to put in place and the deadline to have the entire NextGen system finished originally to be by the year 2020 is approaching, but FAA Administrator Michael Huerta expressed hope this Metroplex system would go into place at airports around the country."
+  },
+  {
+    "question": "As of our board committee, because (our member) companies mostly manufactured notebook computers, if a common consensus from several senior officers from IT industrywill be established, I think the objects of TCA will be more and more cleared.",
+    "answer": "As of our board committee, because (our member) companies mostly manufactured notebook computers, if a common consensus from several senior officers from IT industrywill be established, I think the objectives of Taipei Computer Association will be more and more cleared."
+  },
+  {
+    "question": "by 1951, america had altruistically poured more than $2 billion into the japanese economy.",
+    "answer": "by 1951, america had poured more than $2 billion into the japanese economy."
+  },
+  {
+    "question": "Here, we addressed two questions: (1) To which extent can HPC up-scale protein LMs to larger databases and larger models? (2) To which extent can LMs extract features from single proteins to get closer to the performance of methods using evolutionary information? Methodology: Here, we trained two auto-regressive language models (Transformer-XL and XLNet) and two auto-encoder models (BERT and Albert) using 80 billion amino acids from 200 million protein sequences (UniRef100) and 393 billion amino acids from 2.1 billion protein sequences (BFD ).",
+    "answer": "Here, we trained two auto-regressive language models (Transformer-XL and XLNet) and two auto-encoder models (BERT and Albert) using 80 billion amino acids from 200 million protein sequences (UniRef100) and 393 billion amino acids from 2.1 billion protein sequences (BFD )."
+  },
+  {
+    "question": "on august 24, 2007, due to recent struggles, the braves fired wickman.",
+    "answer": "on august 24, 2007, due to recent struggles, the braves released wickman."
+  },
+  {
+    "question": "India and Pakistan both sent their legal teams to put forward their arguments, led by Harish Salve and Khawar Qureshi QC respectively.",
+    "answer": "India and Pakistan both sent their legal teams to put forward their arguments, led by Harish Salve and Khawar Qureshi respectively."
+  },
+  {
+    "question": "This research examines whether intrinsic metrics (which are easy to measure) correlate well to extrinsic metrics (which reflect real world bias).",
+    "answer": "This research examines whether intrinsic metrics (which are easy to measure) correlate well to real world extrinsic metrics."
+  },
+  {
+    "question": "The construction industry, which peaked at 1.1 million jobs in January 2007, lost 104,000 jobs last month.",
+    "answer": "The construction industry has lost 1.1 million jobs in January 2007, lost 104,000 jobs last month."
+  },
+  {
+    "question": "We always spend much time to comfirm every detail and more enery than others to ccommunicate with other coworkers, because he always gives us unclear tasks and seldom gives us enough support.",
+    "answer": "We always spend much a lot of time to confirm confirming every detail and spending more energy than others to communicate with other coworkers because he always gives us unclear tasks and seldom gives us enough support."
+  }
 ]

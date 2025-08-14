@@ -1,12 +1,16 @@
-TARGET_MODEL: "gemma3n:e4b"
-REFLECTION_MODEL: "gemma3n:e4b"
-EXPLOIT_PROB: 0.90
-MERGE_PROB: 0.75
-BUDGET: 50
-MINI_BATCH_SIZE: 3
-NUM_INITIAL_CANDIDATE_PROMPTS: 4
+TARGET_MODEL: "qwen3:30b-a3b-instruct-2507-q8_0"    # The model that will actually do the text editing
+REFLECTION_MODEL: "gemma3n:e4b" # The model that improves prompts based on feedback
+EXPLOIT_PROB: 0.85  # Reduced from 0.90 to allow more exploration
+MERGE_PROB: 0.60    # Reduced from 0.75 to encourage more merging of good candidates
+BUDGET: 500         # Increased from 100 for much more thorough optimization
+MINI_BATCH_SIZE: 5  # Increased from 3 for more stable feedback per iteration
+NUM_INITIAL_CANDIDATE_PROMPTS: 8  # Increased from 4 for more diverse starting pool
 USE_GEMINI_API: false
 OLLAMA_HOST: "http://192.168.2.162:11434"
+# Enhanced parameters for thorough optimization
+PARETO_SIZE: 50     # Increase evaluation set size (will need code modification)
+FEEDBACK_SIZE: 100  # Increase feedback pool size (will need code modification)
+MAX_COEDIT_SAMPLES: 5000  # Load more CoEdit samples for diversity
 # Gemini API settings (not used when USE_GEMINI_API is false)
 # VERTEXAI: true
 # PROJECT: "insert_project_name_here"
