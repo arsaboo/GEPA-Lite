@@ -1,7 +1,10 @@
 [
-    {"question": "Weng earns $12 an hour for babysitting. Yesterday, she just did 50 minutes of babysitting. How much did she earn?", "answer": "10"},
-    {"question": "Julie is reading a 120-page book. Yesterday, she was able to read 12 pages and today, she read twice as many pages as yesterday. If she wants to read half of the remaining pages tomorrow, how many pages should she read?", "answer": "42"},
-    {"question": "Jack has a stack of books that is 12 inches thick. He knows from experience that 80 pages is one inch thick. If he has 6 books, how many pages is each one on average?", "answer": "160"},
-    {"question": "Bobby has 16 toy cars, and the number of cars he has increases by 50% every year. How many toy cars will Bobby have in three years?", "answer": "54"},
-    {"question": "A church has 120 members. 40% are adults. The rest are children. How many children more children are there than adults?", "answer": "24"}
+    {"question": "Me and my friend goes to the store yesterday and we buyed some groceries for the party.", "answer": "My friend and I went to the store yesterday and bought some groceries for the party."},
+    {"question": "The company's profits has increased significantly due to the fact that they implemented new strategies.", "answer": "The company's profits have increased significantly because they implemented new strategies."},
+    {"question": "I would like to express my gratitude for your assistance in helping me with this matter that was quite difficult.", "answer": "Thank you for your assistance with this difficult matter."},
+    {"question": "The weather was really really bad and it was raining cats and dogs all day long.", "answer": "The weather was terrible, and it rained heavily all day."},
+    {"question": "There's alot of people who doesn't understand the importance of proper grammar and spelling.", "answer": "Many people don't understand the importance of proper grammar and spelling."},
+    {"question": "In my opinion, I think that the new policy is not very good and it could be improved.", "answer": "I think the new policy could be improved."},
+    {"question": "The meeting will be held at 3:00 PM in the afternoon on Tuesday next week.", "answer": "The meeting will be held at 3:00 PM next Tuesday."},
+    {"question": "She was very unique in her approach to solving the problem and her solution was quite effective.", "answer": "Her unique approach to solving the problem was quite effective."}
 ]

@@ -31,6 +31,7 @@ with open("GEPA_cfg.yaml", "r") as f:
 TARGET_MODEL = cfg.get('TARGET_MODEL', 'gemma3n:e4b')
 REFLECTION_MODEL = cfg.get('REFLECTION_MODEL', 'gemma3n:e4b')
 USE_GEMINI_API = cfg.get('USE_GEMINI_API', False)
+OLLAMA_HOST = cfg.get('OLLAMA_HOST', 'http://localhost:11434')
 
 if USE_GEMINI_API:
     VERTEXAI = cfg.get('VERTEXAI', False)
@@ -47,7 +48,15 @@ MINI_BATCH_SIZE = cfg.get('MINI_BATCH_SIZE', 2)
 NUM_INITIAL_CANDIDATE_PROMPTS = cfg.get('NUM_INITIAL_CANDIDATE_PROMPTS', 6)
 
 # === PROMPTS ===
-SEED_PROMPT = "You are an assistant and your task is to answer the user's question."
+SEED_PROMPT = """You are Grammarly. Your job is to improve writing while preserving the author's voice and intent. Focus on these specific areas:
+1. CORRECTNESS: Fix grammar, spelling, punctuation, and syntax errors.
+2. CLARITY: Rewrite unclear or confusing sentences. Remove wordiness and redundancy.
+3. ENGAGEMENT: Improve word choice and sentence variety. Replace weak or vague language.
+4. DELIVERY: Ensure appropriate tone and formality for the context.
+Always preserve the author's meaning, style, and voice.
+Make minimal changes - only edit what needs improvement.
+Do not add new information or change the core message.
+Return ONLY the corrected text with no explanations, comments, or markup."""
 
 META_PROMPT = ("[[ ## context ## ]]\n"
                "You are the reflection model, an expert at improving large language model prompts for a specific task. "
@@ -114,20 +123,28 @@ def rich_display(text: str, style: str = "info") -> str:
     print(f"{Style.BOLD}{styles.get(style, Fore.WHITE)} {text}{Style.reset}")
 
 def eval_metric(pred: str, gt: str) -> float:
-    """This function measures the exactness or similarity between the assistant's response and the ground truth."""
-    ratio = round(SequenceMatcher(None, pred, gt).ratio(), 3)
-    return ratio
+    """This function measures the quality of text editing by comparing similarity to ground truth."""
+    # For text editing, we use a combination of string similarity and length preservation
+    ratio = SequenceMatcher(None, pred.strip(), gt.strip()).ratio()
+
+    # Bonus for preserving similar length (indicates minimal changes)
+    len_diff = abs(len(pred) - len(gt)) / max(len(pred), len(gt), 1)
+    length_bonus = max(0, 1 - len_diff)
+
+    # Weighted score: 70% similarity, 30% length preservation
+    final_score = round(0.7 * ratio + 0.3 * length_bonus, 3)
+    return min(1.0, final_score)
 
 def eval_feedback(ratio: float) -> str:
-    """This function returns feedback based on the measured evaluation metric."""
-    if ratio == 1:
-        return "Correct answer."
+    """This function returns feedback based on the measured evaluation metric for text editing."""
+    if ratio >= 0.9:
+        return "Excellent editing - maintains meaning while improving clarity and correctness."
+    elif ratio >= 0.7:
+        return "Good editing but may have minor issues with clarity, grammar, or preservation of original style."
+    elif ratio >= 0.5:
+        return "Moderate editing quality. The response may have issues with:\n- Over-editing or under-editing\n- Changing the author's voice or meaning\n- Inadequate grammar/clarity improvements\n- Poor tone or formality matching"
     else:
-        return ("Incorrect answer. The assistant's response may be any or combination of the following:\n"
-                "- Overly verbose or lengthy explanations\n"
-                "- Inconsistent with the ground truth's expected format (e.g., units not included, rounding up or down, decimal places not matching)\n"
-                "- Miscalculations\n"
-                "- Misinterpretations")
+        return "Poor editing quality. The response likely has significant issues:\n- Major changes to meaning or voice\n- Insufficient improvements to grammar/clarity\n- Inappropriate tone or style changes\n- Over-verbose explanations or markup"
 
 async def generate_content(model: str, prompt: str, format: BaseModel) -> str:
     if isinstance(format, BaseModel) or isinstance(format, ModelMetaclass):
@@ -135,7 +152,7 @@ async def generate_content(model: str, prompt: str, format: BaseModel) -> str:
     else:
         raise ValueError("Invalid format type. Format must be a Pydantic BaseModel/ModelMetaclass.")
 
-    response = await AsyncClient().generate(
+    response = await AsyncClient(host=OLLAMA_HOST).generate(
         model=model,
         prompt=prompt,
         format=format)
@@ -608,7 +625,7 @@ async def GEPA(
                         candidate_p = candidate_prompts[selected_candidate_id]
                         candidate_parents += (candidate_p["id"],)
                         for_merging_candidates += f"Candidate {candidate_p['id']} >> {candidate_p['prompt']}\n"
-        
+
                     merged_prompt = await extract_merged_prompt(
                         for_merging_candidates=for_merging_candidates,
                         merging_prompt=merging_prompt,

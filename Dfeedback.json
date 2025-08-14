@@ -4,5 +4,21 @@
     {"question": "Ann, Bill, Cate, and Dale each buy personal pan pizzas cut into 4 pieces. If Bill and Dale eat 50% of their pizzas and Ann and Cate eat 75% of the pizzas, how many pizza pieces are left uneaten?", "answer": "6"},
     {"question": "Brennan was researching his school project and had to download files from the internet to his computer to use for reference. After downloading 800 files, he deleted 70% of them because they were not helpful. He downloaded 400 more files but again realized that 3/5 of them were irrelevant. How many valuable files was he left with after deleting the unrelated files he downloaded in the second round?", "answer": "400"},
     {"question": "Carolyn practices the piano for 20 minutes a day and the violin for three times as long. If she practice six days a week, how many minutes does she spend practicing in a month with four weeks?", "answer": "1920"},
-    {"question": "There are 25 roses in a garden. There are 40 tulips. There are 35 daisies. What percentage of flowers are not roses?", "answer": "75"}
+    {"question": "There are 25 roses in a garden. There are 40 tulips. There are 35 daisies. What percentage of flowers are not roses?", "answer": "75"},
+    {"question": "The reason why I am writing this email is because I wanted to inform you about the changes.", "answer": "I'm writing to inform you about the changes."},
+    {"question": "Each and every student must submit their homework on time without any delays whatsoever.", "answer": "Every student must submit their homework on time."},
+    {"question": "The book that I read last week was very interesting and I enjoyed it alot.", "answer": "The book I read last week was very interesting, and I enjoyed it a lot."},
+    {"question": "Due to the fact that it was raining, the event was cancelled and postponed to next week.", "answer": "Because it was raining, the event was cancelled and postponed to next week."},
+    {"question": "In spite of the fact that he studied hard, he didn't pass the exam unfortunately.", "answer": "Despite studying hard, he unfortunately didn't pass the exam."},
+    {"question": "The project was completed successfully and on time by the team who worked very hard.", "answer": "The hard-working team completed the project successfully and on time."},
+    {"question": "It is my belief that we should consider all of the options before making a final decision.", "answer": "I believe we should consider all options before making a final decision."},
+    {"question": "The new restaurant is very good and the food is delicious and the service is excellent.", "answer": "The new restaurant is excellent, with delicious food and outstanding service."},
+    {"question": "He asked me if I could help him with his homework assignment that was due tomorrow.", "answer": "He asked me to help him with his homework assignment due tomorrow."},
+    {"question": "At this point in time, we are currently reviewing all the applications that were submitted.", "answer": "We are currently reviewing all submitted applications."},
+    {"question": "The weather forecast predicts that it will be sunny and warm with no chance of rain.", "answer": "The weather forecast predicts sunny, warm weather with no chance of rain."},
+    {"question": "In order to be successful, you need to work hard and be persistent in your efforts.", "answer": "To be successful, you need to work hard and be persistent."},
+    {"question": "The meeting was very productive and we accomplished alot of important tasks.", "answer": "The meeting was very productive, and we accomplished many important tasks."},
+    {"question": "She is one of the most smartest students in the class and always gets good grades.", "answer": "She is one of the smartest students in the class and always gets good grades."},
+    {"question": "The company is planning to expand their business operations to different countries around the world.", "answer": "The company plans to expand its business operations to different countries worldwide."},
+    {"question": "I want to thank you for all of your help and support during this difficult time period.", "answer": "Thank you for all your help and support during this difficult time."}
 ]

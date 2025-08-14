@@ -3,6 +3,8 @@
 
 **GEPA-Lite** is a lightweight implementation based on the proposed [GEPA prompt optimization method](https://arxiv.org/pdf/2507.19457) that is custom fit for single-task applications. It's built on the **core principle of LLM self-reflection, self-improvement, streamlined**.
 
+This implementation is configured for **Grammarly-style text editing optimization**, demonstrating how GEPA can be used to evolve and improve writing assistant prompts through iterative refinement.
+
 Developed in the spirit of open-source initiatives like `Google Summer of Code 2025` and `For the Love of Code 2025`, this project leverages **Gemma** (`ollama::gemma3n:e4b`) as its core model. The project also offers optional support for the **Gemini API**, allowing access to powerful models like `gemini-2.5-flash-lite`, `gemini-2.5-flash`, and `gemini-2.5-pro`.
 
 Created by: *Emmanuel G. Maminta<sup>*</sup>* (`GitHub: egmaminta`, [`LinkedIn: egmaminta`](https://ph.linkedin.com/in/egmaminta), [`Personal Blog: egmaminta.github.io`](https://egmaminta.github.io/), `Email: egmaminta@up.edu.ph`)
@@ -13,11 +15,9 @@ Created by: *Emmanuel G. Maminta<sup>*</sup>* (`GitHub: egmaminta`, [`LinkedIn: 
 <p align="center" width="100%">
    <img src="demo.gif" alt="demo" />
    <p align="justify" width="100%">
-      GEPA-Lite demonstration on sampled GSM8K<sup>**</sup>. <b>Initial prompt</b>: <i>"You are an assistant and your task is to answer the user's question."</i> <b>Final prompt</b>: <i>"Your task is to solve mathematical word problems and output only the final numerical answer."</i>
+      GEPA-Lite demonstration on text editing optimization. <b>Initial prompt</b>: <i>"You are Grammarly. Your job is to improve writing while preserving the author's voice and intent..."</i> The system iteratively evolves this prompt to maximize text editing quality while maintaining the author's original style and meaning.
    </p>
 </p>
-
-<sup>**</sup>[GSM8K](https://github.com/openai/grade-school-math) consists of 8.5K high quality grade school math problems created by human problem writers.
 
 #### Four strategies implemented
 | Strategy | Trigger condition | Action taken | Goal |
@@ -195,6 +195,22 @@ pip install -r requirements.txt
     2. Inject a few "stress" / adversarial items (format traps, long inputs).
     3. Ensure at least `MINI_BATCH_SIZE * 2 * |Dpareto|` total.
     4. Optionally rotate / refresh between runs (version the file).
+
+## About this Grammarly Implementation
+This configuration optimizes prompts for text editing tasks, specifically:
+- **Grammar and spelling correction**
+- **Clarity improvement**
+- **Style preservation**
+- **Conciseness enhancement**
+
+#### Data roles for text editing
+- `Dpareto.json`: Contains pairs of poorly written text and their expertly edited versions for stable evaluation
+- `Dfeedback.json`: Additional text editing examples for iterative refinement during optimization
+
+#### Evaluation metrics
+- **String similarity**: Measures how closely the AI's edits match expert edits
+- **Length preservation**: Rewards minimal, targeted changes over extensive rewrites
+- **Combined score**: 70% similarity + 30% length preservation bonus
 
 ## Acknowledgments
 I'd like to acknowledge the authors of GEPA paper for their awesome work; the team (developers, engineers, and scientists) behind [Gemma 3n](https://deepmind.google/models/gemma/gemma-3n/), [Gemini](https://deepmind.google/models/gemini/) for their powerful models; and [Google Summer of Code 2025](https://summerofcode.withgoogle.com/) and [For the Love of Code 2025](https://github.blog/open-source/for-the-love-of-code-2025/) for inspiring me to continue contributing to open-source. `#ForTheLoveOfCode`
